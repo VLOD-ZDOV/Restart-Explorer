@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WindowsInput" Version="6.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include=" System.Int32">
+      <Static>True</Static>
+    </Using>
+    <Using Include="System.Diagnostics.Process">
+      <Static>True</Static>
+    </Using>
+    <Using Include="System.Threading.Thread">
+      <Static>True</Static>
+    </Using>
+    <Using Include="WindowsInput.Capture">
+      <Static>True</Static>
+    </Using>
+    <Using Include="WindowsInput.Events.KeyCode">
+      <Static>True</Static>
+    </Using>
+    <Using Include="WindowsInput.Events.Sources" />
+  </ItemGroup>
+
+</Project>
