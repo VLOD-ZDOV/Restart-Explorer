@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/restart_explorer.fs/.vs/restart_explorer
+/restart_explorer.fs/bin/Debug/net9.0-windows
+/restart_explorer.fs/obj
+/RestartExplorer/bin
+/RestartExplorer/obj
+/.vs
